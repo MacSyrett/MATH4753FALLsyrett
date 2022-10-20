@@ -19,3 +19,6 @@ Produces a bar graph that depicts the frequency of the number of successes
 \description{
 Binomial Experiment Simulator
 }
+\examples{
+\dontrun{mybin()}
+}
