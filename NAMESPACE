@@ -3,4 +3,5 @@
 export(mybin)
 export(mygetwd)
 export(myncurve)
+export(myntickets)
 export(scatterhist)
