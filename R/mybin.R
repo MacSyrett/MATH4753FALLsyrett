@@ -1,4 +1,3 @@
-
 #' @title Binomial Experiment Simulator
 #'
 #' @param iter Number of binomial experiements to iterate
