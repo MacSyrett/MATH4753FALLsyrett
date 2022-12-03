@@ -1,0 +1,72 @@
+---
+title: "What the package does"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{What the package does}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753FALLsyrett)
+```
+
+# Introduction
+
+This is my package for MATH-4753. It contains several functions from throughout the semester.
+
+## Data
+
+The package contains one data frame, fire. Fire contains two columns and 15 rows describing fire distance and damage.
+
+## Function 1
+
+The first function is mygetwd(). It merely gets the working directory. 
+```{r}
+mygetwd()
+```
+
+## Function 2
+
+The second function is scatterhist(x, y, xlab, ylab). It takes in two data columns for X and Y and creates a scatter histogram with them. You can also label the x and y axis with xlab and ylab.
+```{r}
+scatterhist(fire$DISTANCE, fire$DAMAGE, xlab = "The x label", ylab = "the Y label")
+```
+
+## Function 3
+
+The third function is mybin(iter, n, p). It runs a binomial experiment with size n and probability of success p iter times. It then produces a bar plot of the number of successes for each iteration. 
+```{r}
+mybin(iter = 100, n = 10, p = 0.5)
+```
+
+## Function 4
+
+The fourth function is myncurve(mu, sigma, a). It produces a curve with the lower tail shaded and returns the calculated lower tail probability. 
+```{r}
+myncurve(0,1,0.05)
+```
+
+## Function 5
+
+The fifth function is myntickets(N, gamma, p). This produces a solution for the airline overbooking problem.
+```{r}
+myntickets()
+```
+
+## Function 6
+
+The sixth function is myboot2(iter, x, fun, alpha, cx, ...). This is a bootstrap moment generating function.
+```{r}
+myboot2(x=fire$DAMAGE)
+```
+
+
+
