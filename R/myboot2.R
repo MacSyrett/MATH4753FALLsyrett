@@ -4,7 +4,7 @@
 #' @param x The data
 #' @param fun Function of the sample to be estimated
 #' @param alpha 1-alpha = ci
-#' @param cx ?
+#' @param cx The cx value
 #' @param ...
 #'
 #' @return A graph, a list of output parameters
