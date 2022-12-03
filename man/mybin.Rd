@@ -7,7 +7,7 @@
 mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
-\item{iter}{Number of binomial experiements to iterate}
+\item{iter}{Number of binomial experiments to iterate}
 
 \item{n}{Number of Bernoulli experiments per binomial}
 
