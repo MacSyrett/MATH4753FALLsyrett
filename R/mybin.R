@@ -1,6 +1,6 @@
 #' @title Binomial Experiment Simulator
 #'
-#' @param iter Number of binomial experiements to iterate
+#' @param iter Number of binomial experiments to iterate
 #' @param n Number of Bernoulli experiments per binomial
 #' @param p Probability of success
 #'
